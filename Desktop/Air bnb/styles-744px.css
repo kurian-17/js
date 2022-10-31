@@ -1,0 +1,102 @@
+@media screen and (min-width:744px) {
+    .mobile-header {
+        display: none;
+    }
+    .laptop-header {
+        display: block;
+        height: 80px;
+        width: 100%;
+    }
+    .Lapcontainer {
+        padding: 0 40px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo svg {
+        fill: #ff385c;
+    }
+    .input-paddng {
+        padding: 0 24px;
+        min-width: 348px;
+    }
+    .circle-red {
+        width: 32px;
+        height: 32px;
+        border-radius: 25px;
+        background: #ff385c;
+        margin: 7px 7px 7px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle-red svg {
+        fill: #fff;
+        width: 12px;
+        height: 12px;
+    }
+
+    .input-container {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        border-radius: 100px;
+        background: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    }
+    .input-child-flex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .about-details {
+        display: flex;
+    }
+    .profile-content {
+        padding: 5px 5px 5px 12px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        border: 1px solid #ddd;
+    }
+    .profile-parent {
+        width: 77px;
+        height: 42px;
+        position: relative;
+        
+    }
+    .profile {
+        display: flex;
+    }
+    .profile svg {
+        margin-left: 12px;
+    }
+    .red-dot {
+        width: 10px;
+        height: 10px;
+        background: red;
+        border-radius: 25px;
+        position: absolute;
+        right: 7px;
+        top: 4px;
+        border: 1px solid #fff;
+    }
+    .host-bttn-parent {
+        display: flex;
+        align-items: center;
+    }
+    .globe-svg {
+        padding: 12px;
+    }    
+    .globe-svg svg {   
+        height: 18px;
+        width: 16px;
+    }
+}
