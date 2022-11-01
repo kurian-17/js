@@ -1,0 +1,12 @@
+@media screen and (min-width:950px) {
+.logo {
+    flex: 1 0 140px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+
+}

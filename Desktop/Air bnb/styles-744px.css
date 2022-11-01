@@ -3,20 +3,29 @@
         display: none;
     }
     .laptop-header {
-        display: block;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
         height: 80px;
         width: 100%;
+        /* border-bottom: 1px solid rgb(240, 239, 239); */
     }
     .Lapcontainer {
+        width: 100%;
         padding: 0 40px;
         display: flex;
         flex-flow: row;
         align-items: center;
     }
     .logo {
+        height: 80px;
         display: flex;
+        flex: 0 0 auto;
         align-items: center;
         justify-content: center;
+    }
+    .logo .smallScreen  {
+        display: none;
     }
     .logo svg {
         fill: #ff385c;
@@ -54,16 +63,12 @@
         display: flex;
         align-items: center;
     }
-    
-    .about-details {
-        display: flex;
-    }
     .profile-content {
-        padding: 5px 5px 5px 12px ;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 25px;
+    padding: 5px 5px 5px 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
         border: 1px solid #ddd;
     }
     .profile-parent {
@@ -79,24 +84,62 @@
         margin-left: 12px;
     }
     .red-dot {
-        width: 10px;
-        height: 10px;
+        width: 14px;
+        height: 14px;
         background: red;
         border-radius: 25px;
         position: absolute;
-        right: 7px;
-        top: 4px;
-        border: 1px solid #fff;
+        right: 3px;
+        top: 1px;
+        border: 2px solid #fff;
     }
-    .host-bttn-parent {
-        display: flex;
-        align-items: center;
-    }
+    
     .globe-svg {
         padding: 12px;
     }    
     .globe-svg svg {   
         height: 18px;
         width: 16px;
+        fill: #222;
     }
+    .input-I {
+        padding-left: 8px;
+        margin: -1px;
+    }
+    .input-II ,.input-III {
+        margin: -1px;
+        display: flex;
+        align-items: center;
+    }
+   
+    .input-container span {
+        padding: 0px 16px;
+        color: #222;
+        font-size: 14px;
+        font-size: 600;
+    }
+    .about-details {
+        display: flex;
+        flex: 1 0 auto;
+        justify-content: right;
+    }
+    .host-bttn-parent {
+        display: flex;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 8px;
+    }
+    .host-bttn {
+        padding: 12px;
+        color: #222;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .line24 {
+        width: 1px;
+        height: 24px;
+        border-right: 1px solid #ddd;
+    }
+    
 }

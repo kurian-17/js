@@ -1,0 +1,12 @@
+@media screen and (min-width:1128px) {
+    .logo .bigScreen {
+        display: none;
+    }
+    .logo .smallScreen {
+        display: block;
+
+    }
+    .logo.smallScreen svg {
+        fill: #ff385c;
+    }
+}
