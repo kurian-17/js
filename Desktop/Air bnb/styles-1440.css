@@ -1,7 +1,10 @@
 @media screen and (min-width:1440px) {
-   .lapcontainer {
-    padding: 0 80px;
+   .padding80 {
+    padding: 0 80px !important;
    }
-
+   .Lapcontainer {
+      max-width: 2520px;
+      margin: 0 auto;
+   }
 
 }

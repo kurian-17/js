@@ -1,5 +1,5 @@
 @media screen and (min-width:950px) {
-.logo {
+.logo , .about-details{
     flex: 1 0 140px;
     justify-content: flex-start;
     align-items: center;
