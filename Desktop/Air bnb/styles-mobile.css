@@ -118,5 +118,65 @@ nav {
 }
 .nav-container {
     height: 100%;
-    padding: 0 24px;
 }
+.nav-grid-container {
+    height: 100%;
+    padding: 0 24px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    overflow: scroll;
+    scrollbar-width: none;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.08);
+}
+.nav-grid-container::-webkit-scrollbar {
+    display: none;
+}
+.nav-card {
+    margin: 12px 0 0 0;
+    padding: 4px 0 14px 0;
+    text-align: center;
+}
+.nav-card-flex {
+    min-width: 64px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 4px;
+}
+.nav-card-flex:hover img {
+    filter: none;
+}
+.nav-card-flex:hover div {
+    color: #000;
+}
+.nav-card:hover {
+    border-bottom: 2px solid #dbdbdb;
+}
+.primary-card  {
+    border-bottom: 2px solid #000;
+}
+.primary-card .nav-card-flex img {
+    filter: none;
+}
+.primary-card .nav-card-flex .nav-card-text {
+    color: #000;
+}
+.nav-card-text {
+    font-size: 12px;
+    font-weight: 600 !important;
+    color: #717171;
+    white-space: nowrap;
+}
+.nav-card-flex img {
+    width: 24px;
+    height: 24px;
+    filter: contrast(calc(0.295));
+}
+
+.nav-card-flex:hover {
+        filter: none;
+        color: #000;
+    }
+    

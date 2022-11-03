@@ -159,6 +159,53 @@
         height: 24px;
         border-right: 1px solid #ddd;
     }
+    /* nav */
+
+    .hide-on-mobile {
+        display: block;
+    }
+    .nav-grid-container {
+        border-bottom: none;
+        box-shadow: none;
+        grid-gap: 32px;
+    }
+    .navchild {
+
+        height: 78px;
+        display: flex;
+        flex-flow: row;
+    }
+    nav {
+        height: auto;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+    .nav-container {
+        display: flex;
+        width: 100vw;
+        
+    }
+    .nav-card-flex {
+        min-width: 56px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
 @media screen and (min-width:757px) {
@@ -168,4 +215,5 @@
     .input-paddng {
         max-width: 400px;
     }
+
 }
