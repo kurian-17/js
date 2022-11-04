@@ -1,6 +1,8 @@
 @media screen and (min-width:1440px) {
    .padding80 {
     padding: 0 80px !important;
+    max-width: 2520px;
+    margin: 0 auto;
    }
    .Lapcontainer {
       max-width: 2520px;
