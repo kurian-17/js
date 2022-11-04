@@ -9,4 +9,7 @@
     .logo.smallScreen svg {
         fill: #ff385c;
     }
+    .show-1128 {
+        display: block;
+    }
 }

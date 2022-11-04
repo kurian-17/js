@@ -180,3 +180,6 @@ nav {
         color: #000;
     }
     
+.show-550,.show-950 ,.show-1128,.show-1640,.show-1880 {
+    display: none;
+}
