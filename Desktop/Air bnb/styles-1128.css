@@ -9,7 +9,8 @@
     .logo.smallScreen svg {
         fill: #ff385c;
     }
-    .show-1128 {
-        display: block;
+    .card-container {
+        grid-template-columns: repeat(4,minmax(0,1fr));
     }
+    
 }
