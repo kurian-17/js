@@ -1,4 +1,9 @@
 @media screen and (min-width:744px) {
+
+
+    .padding40 {
+        padding: 0 40px;
+    }
     .mobile-header {
         display: none;
     }
@@ -16,6 +21,9 @@
         display: flex;
         flex-flow: row;
         align-items: center;
+        position: sticky;
+        top: 0;
+        left: 0;
     }
     .logo {
         height: 80px;
@@ -240,6 +248,11 @@
         box-shadow: -20px 0px 22px 4px #fff;
         margin-left: 3px;
         z-index: 10;
+    }
+
+
+    .P-right-left {
+        width: 33.333%;
     }
   
 

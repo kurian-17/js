@@ -31,12 +31,22 @@ ul, li {
     text-decoration: none;
 }
 
+header , nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: auto;
+}
 .mobile-header {
     width: 100%;
     padding: 14px 24px 0;
+    z-index: 1000;
 }
 .laptop-header {
     display: none;
+    position: sticky;
+    top: 0;
+    bottom: auto;
 }
 
 .M-header-container {
@@ -115,6 +125,8 @@ ul, li {
 /* nav */
 nav {
     height: 74px;
+    background-color: #fff;
+    z-index: 100;
 }
 .nav-container {
     height: 100%;
@@ -185,9 +197,6 @@ main {
 }
 section {
     padding: 0 24px;
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
 }
 .card-img{
 	/* background: linear-gradient(transparent 80%, rgba(0, 0, 0, 0.25)); */
@@ -206,6 +215,7 @@ section {
 .card-img-grid {
     display: grid;
     grid-template-columns: 1fr;
+    aspect-ratio: 20/19;
 }
 .card {
     width: 100%;
@@ -222,6 +232,8 @@ section {
 .card-img img {
     border-radius: 12px;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .card-content {
     display: flex;
@@ -261,4 +273,98 @@ section {
 
 .card img {
     max-width: 500px;
+}
+
+.borderTop-line {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+
+}
+.card-continue-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 56px;
+}
+.more-bttn {
+    margin: 24px 0 80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-more-bttn {
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+.sec-parent {
+    margin-bottom: 48px;
+}
+.last-sec {
+    padding: 0 24px;
+}
+.last-sec-content {
+    padding-bottom: 40px;
+}
+.last-sec-title {
+    color: #222;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 26px;
+}
+.last-sec-toDo {
+    color: #222;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    margin: 6px 0 6px -10px;
+    width: 82px;
+    box-sizing: content-box;    
+}
+.border-bottom {
+    height: 3px !important;
+    border-bottom: 1px solid #ccc;
+}
+.border-bottom div {
+    width: 82px;
+    background-color: #222;
+    height: 2px;    
+}
+.cities {
+    padding-top: 8px;
+}
+.cities-container {
+    display: flex;
+    flex-wrap: wrap !important;
+}
+.P-top {
+    padding: 24px 0 0 ;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.F-s {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    
+}
+.city-supertext {
+    color: #222;
+}
+.city-subtext {
+    padding-top: 2px;
+    color: #717171;
+}
+.more-cities {
+    font-weight: 600;
+    text-decoration: underline;
 }

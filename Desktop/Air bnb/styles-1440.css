@@ -8,7 +8,7 @@
       max-width: 2520px;
       margin: 0 auto;
    }
-   .card-container {
+   .cards-container {
       grid-template-columns: repeat(4,minmax(0,1fr));
   }
   
@@ -16,12 +16,12 @@
 
 }
 @media screen and (min-width:1640px) {
-   .card-container {
+   .cards-container {
    grid-template-columns: repeat(5,minmax(0,1fr));
 } 
 }
 @media screen and (min-width:1880px) {
-   .card-container {
+   .cards-container {
       grid-template-columns: repeat(6,minmax(0,1fr));
   }
   

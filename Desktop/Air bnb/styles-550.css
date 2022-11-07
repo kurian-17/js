@@ -1,5 +1,16 @@
 @media screen and (min-width:550px) {
-    .card-container {
+    .cards-container {
         grid-template-columns: repeat(2,minmax(0,1fr));
     }
+
+}
+@media screen and (min-width:375px) {
+    .cities-container  {
+        /* height: 397px; */
+        width: 100%;
+    }
+    .P-right-left {
+        width: 50%;
+    }
+
 }
