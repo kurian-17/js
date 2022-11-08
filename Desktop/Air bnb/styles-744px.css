@@ -250,17 +250,43 @@
         z-index: 10;
     }
 
-
     .P-right-left {
         width: 33.333%;
     }
-  
-
-
-
-
-
-
+    
+    main {
+        /* margin: 16px 0 40px 0; */
+        padding: 0;
+    }
+    .sec-parent {
+        margin-bottom: 0;
+    }
+    .F-content-text {
+        margin: 0 -12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .F-text {
+        width: 33.3333%;
+        padding: 0 12px;
+        margin: 12px 0 0 0 ;
+    }
+    .footer-container {
+        border: none;
+    }
+    .socials {
+        display: flex;
+        margin-left: 32px;
+    }
+    .fb, .twitter {
+        margin-right: 24px;
+    }
+    .footer-bottom-first {
+        justify-content: center;
+    }
+    .footer-bottom-last {
+        align-items: center;
+    }
 
 
 

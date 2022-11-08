@@ -9,6 +9,11 @@
         /* height: 397px; */
         width: 100%;
     }
+    .cities-container {
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+
     .P-right-left {
         width: 50%;
     }
