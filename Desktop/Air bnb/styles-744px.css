@@ -169,6 +169,10 @@
     }
     /* nav */
 
+    nav {
+        top: 80px;
+    }
+
     .hide-on-mobile {
         display: block;
     }

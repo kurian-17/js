@@ -31,11 +31,17 @@ ul, li {
     text-decoration: none;
 }
 
-header , nav {
+header  {
     position: sticky;
     top: 0;
     left: 0;
     bottom: auto;
+    z-index: 10;
+    background-color: #fff;
+}
+nav {
+    position: sticky;
+    top: 70px;
 }
 .mobile-header {
     width: 100%;
@@ -321,13 +327,24 @@ section {
     line-height: 26px;
 }
 .last-sec-toDo {
+    display: flex;
+    align-items: center;
     color: #222;
     font-weight: 600;
     font-size: 14px;
+       
+}
+.toDo {
     padding: 10px;
-    margin: 6px 0 6px -10px;
+    margin: 6px 6px 6px -10px;
     width: 82px;
-    box-sizing: content-box;    
+    box-sizing: content-box; 
+}
+.categories {
+    width: 73px;
+    color: #717171;
+    box-sizing: content-box; 
+    padding: 10px;
 }
 .border-bottom {
     height: 3px !important;
@@ -375,7 +392,6 @@ footer {
     background: #f7f7f7;
     color: #222;
     font-size: 14px;
-    position: relative;
 }
 .footer-container {
     border-top: 1px solid #ddd;
@@ -438,15 +454,20 @@ footer {
     flex-flow: row;
     flex-wrap: wrap;
 }
-.f-dot {
+.f-dot,.f-dot-1128  {
     width: 19px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.f-dot-1128 {
+    display: none;
+}
+
 .floating-bttn {
+    width: 100%;
     z-index: 100001;
-    position: absolute;
+    position: fixed;
     bottom: 40px;
 }
 .show-map-bttn {
@@ -455,7 +476,8 @@ footer {
     justify-content: center; 
     background-color: #222;
     padding: 14px 19px;
-    width: 133px;
+    width: 132px;
+    margin: 0 auto !important;
     border-radius: 25px;
 }
 .bttn-text {
