@@ -172,7 +172,6 @@
     nav {
         top: 80px;
     }
-
     .hide-on-mobile {
         display: block;
     }
@@ -290,6 +289,9 @@
     }
     .footer-bottom-last {
         align-items: center;
+    }
+    .floating-bttn {
+        display: block;
     }
 
 
