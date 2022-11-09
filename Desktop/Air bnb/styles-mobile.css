@@ -126,10 +126,11 @@ nav {
     justify-content: center;
 }
 .dot {
-    width: 1px;
-   margin: 0 5px;
+    margin: 0 5px;
+    /* width: 1px;
    border: 1px solid #6d6d6d;
-   border-radius: 25px;
+   border-radius: 25px; */
+
 }
 .hide-on-mobile {
     display: none;
@@ -333,9 +334,11 @@ section {
 .last-sec-title {
     color: #222;
     font-size: 22px;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-family: CircularM;
     text-align: start;
     line-height: 26px;
+    margin-bottom: 8px;
 }
 .last-sec-toDo {
     display: flex;
