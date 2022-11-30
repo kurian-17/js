@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: #37af83;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-center {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+}
+.burger-nav {
+    width: 80px;
+    height: 52px;
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+}
+.nav {
+    height: 8px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 2px 3px 5px rgba(34, 34, 34, 0.5);
+}
+.margin {
+    margin: 14px 0;
+}
