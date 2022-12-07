@@ -1,0 +1,33 @@
+.frame {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -200px;
+    background: #000;  
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+button {
+    background-color: #0f0;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:inset 3px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+#decrement-bttn {
+    background-color: #f00;
+}
+#save-bttn {
+    width: 100px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+
