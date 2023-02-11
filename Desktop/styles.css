@@ -1,0 +1,31 @@
+body {
+    /* height: 100vh; */
+    background-color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+
+    animation: rotator 1s linear infinite;
+    transform: rotate(30deg
+    );
+}
+
+@keyframes rotator {
+    from {transform: translateX(200px);
+    /* transform: rotate(30deg); */
+}
+    to {transform: translateX(500px);
+        /* transform: rotate(30deg); */
+    }
+    
+}
